@@ -1,4 +1,4 @@
-{% set version = '0.1.12' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ife_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ife/ife_{{ version }}.tar.gz
-  sha256: 20527fc166c9166d31778054a55e8674e02130b8c39a53c9f62353fc19e9923e
+  sha256: b729db24f0a728c34cb593c1283c5e0f82fe6bcdad285cd1bbedb08d3f24a022
 
 build:
   number: 0
@@ -45,8 +45,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=ife
   license: GPL-3.0-or-later
-  summary: Implements an S7 class for estimates based on influence functions. Standard arithmetic
-    operations are defined for the class.
+  summary: Implements an S7 class for estimates based on influence functions. Standard arithmetic operations are defined for the class.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'

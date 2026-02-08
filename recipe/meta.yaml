@@ -30,11 +30,13 @@ requirements:
     - r-base
     - r-s7 >=0.2.0
     - r-cli
+    - r-collapse
     - r-generics
   run:
     - r-base
     - r-s7 >=0.2.0
     - r-cli
+    - r-collapse
     - r-generics
 
 test:
@@ -45,7 +47,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=ife
   license: GPL-3.0-or-later
-  summary: Implements an S7 class for estimates based on influence functions. Standard arithmetic operations are defined for the class.
+  summary: Implements an S7 class for estimates based on influence functions, with forward mode automatic differentiation defined for standard arithmetic operations.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'

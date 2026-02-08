@@ -7,7 +7,7 @@ Home: https://CRAN.R-project.org/package=ife
 
 Package license: GPL-3.0-or-later
 
-Summary: Implements an S7 class for estimates based on influence functions. Standard arithmetic operations are defined for the class.
+Summary: Implements an S7 class for estimates based on influence functions, with forward mode automatic differentiation defined for standard arithmetic operations.
 
 Current build status
 ====================

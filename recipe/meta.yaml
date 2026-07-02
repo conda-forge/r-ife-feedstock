@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ife_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ife/ife_{{ version }}.tar.gz
-  sha256: b6be1e9ba514db95118e425d2f78deabb2c9f745f44f35a301ff9b5f266d5ed2
+  sha256: 7c8b34846b6cfda48ba0027b1c5b6f95caf58e2a24d047f2a1cbcbe789011565
 
 build:
   number: 0
